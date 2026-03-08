@@ -1,17 +1,17 @@
 [
     {
         "name":"Dhanya Ganapathi Naik",
-        "bod":"2007-10-23",
+        "dob":"2007-10-23",
         "password":"dhanya123"
     },
     {
         "name":"Abhishek M Sunkapur",
-        "bod":"2007-08-15",
+        "dob":"2007-08-15",
         "password":"ABHISHEK123"
     },
     {
         "name":"Meghana Mohan Patagar",
-        "bod":"2007-08-15",
+        "dob":"2007-08-15",
         "password":"SATYARTH123"
     }
 ]
