@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+
+
     <title>Birthay special</title>
 </head>
 <body>
@@ -14,5 +17,28 @@
         <p>wishing you a lot of sweet memories, Love and Happiness today and always!...☺️</p>
         <a href="login.html"><button>Login to your world</button></a>
     </div>
+    <script type="module">
+    // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDhxjJPaYTRd_DMVi6FdXLsEctfXKTkmoI",
+  authDomain: "birthday-10d70.firebaseapp.com",
+  projectId: "birthday-10d70",
+  storageBucket: "birthday-10d70.firebasestorage.app",
+  messagingSenderId: "612572101196",
+  appId: "1:612572101196:web:ecf991ba544854a293d2e9",
+  measurementId: "G-P4213DMQRG"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+</script>
 </body>
 </html>    
